@@ -6,6 +6,9 @@ form.addEventListener('submit', function(e){
 
     const A = document.getElementById('A');
     const B = document.getElementById('B');
+    
+    A = A(A.value);
+    B = B(B.value);
 
     if(B>A){
         alert("parabens esta tudo certo");
