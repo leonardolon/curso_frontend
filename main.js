@@ -1,18 +1,14 @@
 const form = document.getElementById("form_formulario");
 
-form.addEventListener('submit', function(e){
-
-    e.preventDefault();
-
-    const A = document.getElementById('A');
-    const B = document.getElementById('B');
+form.addEventListener('submit', function(){ 
     
-    A = A(A.value);
-    B = B(B.value);
-
-    if(B>A){
+    
+    const A = document.getElementById("A");
+    const B = document.getElementById("B");
+        
+    if((B.value) > (A.valeu)){
         alert("parabens esta tudo certo");
-    }else{
+    } else {
         alert("O valor do segundo campo e menor que o do primeiro");
     }
 
