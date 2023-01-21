@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 16px 0;
+    display: flex;
+    border-bottom: 16px solid #fff;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+form{
+    background-color: aliceblue;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input, button {
+    padding: 8px;
+}
+
+button {
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+#botao-cancelar {
+    background-color: red;
+}
+
+ul{
+    padding: 16px;
+    font-size: 18px;
+    font-weight: bold
+}
+
+ul li {
+    padding: 8px 0;
+    text-align: center;
+    list-style: none;    
+}
+
+a:hover {
+    text-decoration: line-through;
+    color:black;
+
+}
+
+a:link {
+    text-decoration: none;
+    color:black;
+}
+
+a:active {
+    text-decoration: line-through;
+    color:black;
+}
+
+a:active {
+    text-decoration: line-through;
+    color:black;
+
+}a:visited {
+    text-decoration: line-through;
+    color:black;
+}
