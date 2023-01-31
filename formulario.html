@@ -13,13 +13,20 @@
         <input type="text"  placeholder="digite o nome completo" />
         <input type="email"  placeholder="digite o email" /> 
         <input type="tel"  placeholder="digite o telefone" /> 
-        <input type="number"  placeholder="digite o CPF" /> 
+        <input type="text" id="campo-cpf"  placeholder="digite o CPF" /> 
         <input type="text"  placeholder="digite o endereço completo" /> 
-        <input type="number"  placeholder="digite o CEP" />        
+        <input type="text" id="campo-cep"  placeholder="digite o CEP" />        
         <button type="submit">Cadastrar</button>
     </form>
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
     <script src="js/jquery.mask.min.js"></script>
     <script src="./main.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#campo-cpf").mask("000.000.000-00")
+            $("#campo-cep").mask("00000-000")
+        })
+        
+    </script>
 </body>
 </html>
