@@ -1,4 +1,4 @@
-function carro(nome, marca, preco) {    
+function Carro(nome, marca, preco) {    
     this.nome = nome;
     this.marca = marca;
 
@@ -16,6 +16,6 @@ function carro(nome, marca, preco) {
     }
 }
 
-const Carro1 = new carro("voyage, VW", 15000);
+const Carro1 = new Carro("voyage, VW", 15000);
 
-console.log("carro1")
+console.log(Carro1)
