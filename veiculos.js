@@ -19,7 +19,7 @@ function Carro(modelo, marca, preco) {
         
     }
     
-    Modelo.call(this,nome);
+    Modelo.call(this, nome);
 }
 
 function Ford(nome){
