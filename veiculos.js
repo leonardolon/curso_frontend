@@ -2,7 +2,7 @@ function Modelo(nome){
     this.nome= nome;
 }
 
-function Carro(modelo, marca, preco) {    
+function Carro(nome, marca, preco) {    
     
     this.marca = marca;
 
