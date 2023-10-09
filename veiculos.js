@@ -24,33 +24,19 @@ function Carro(nome, marca, preco) {
 
 function Ford(nome){
     carro.call(this,nome, "ford", 25000)
-
-    this.inflacao = function () {
-        const novoPreco = this.getPreco() * 1.1;
-        this.setPreco(novoPreco);           
-    }
 }
 
 function Toyota(nome){
-    carro.call(this,nome, "Toyota", 25000)
-
-    this.inflacao = function () {
-        const novoPreco = this.getPreco() * 1.1;
-        this.setPreco(novoPreco);           
-    }
+    carro.call(this,nome, "Toyota", 25000)                     
 }
         
 
 const Carro1 = new Carro("voyage, VW", 15000);
 const Carro2 = new Carro("FordKa");
-const Carro3 = new carro("supra");
+const Carro3 = new Carro("supra");
 
-Carro1.inflacao();
+
 console.log(Carro1)
-
-Carro2.inflacao();
 console.log(Carro2)
-
-Carro3.inflacao();
 console.log(Carro3)
 
