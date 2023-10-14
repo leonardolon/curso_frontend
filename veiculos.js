@@ -22,13 +22,9 @@ function Toyota(nome){
     
 }
         
+    }
+}
 
-const Carro1 = new Carro("voyage", "VW", 15000);
-const Carro2 = new Ford("FordKa");
-const Carro3 = new Toyota("supra");
-
-
+const Carro1 = new Carro("voyage, VW", 15000);
 
 console.log(Carro1)
-console.log(Carro2)
-console.log(Carro3)
